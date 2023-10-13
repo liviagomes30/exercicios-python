@@ -1,0 +1,7 @@
+frase = input('Digite a frase a ser codificada: ').upper()
+frase = frase.replace('A','2')
+frase = frase.replace('E','3')
+frase = frase.replace('I','4')
+frase = frase.replace('O','5')
+frase = frase.replace('U','6')
+print('Frase codificada:',frase)
